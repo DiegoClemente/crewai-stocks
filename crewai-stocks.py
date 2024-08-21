@@ -143,4 +143,4 @@ if submit_button:
         results = crew.kickoff(inputs={'ticket': topic})
 
         st.subheader("Results of your research: ")
-        st.write(results)
+        st.write(results['final_output'])
